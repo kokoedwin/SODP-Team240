@@ -23,7 +23,7 @@ File contains the list of all available modules and their presentations. The col
   <li>code_presentation – code name of the presentation. It consists of the year and “B” for the presentation starting in February and “J” for the presentation starting in October.</li>
   <li>length - length of the module-presentation in days.</li>
 The structure of B and J presentations may differ and therefore it is good practice to analyse the B and J presentations separately. Nevertheless, for some presentations the corresponding previous B/J presentation do not exist and therefore the J presentation must be used to inform the B presentation or vice versa. In the dataset this is the case of CCC, EEE and GGG modules.
-<ol>  
+</ol>  
 
 **-studentAssessment.csv**
 
