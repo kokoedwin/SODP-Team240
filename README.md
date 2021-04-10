@@ -5,21 +5,24 @@
 **-assessments.csv**
 
 This file contains information about assessments in module-presentations. Usually, every presentation has a number of assessments followed by the final exam. CSV contains columns:
-
->>code_module – identification code of the module, to which the assessment belongs.
->>code_presentation - identification code of the presentation, to which the assessment belongs.\>>id_assessment – identification number of the assessment.
->>assessment_type – type of assessment. Three types of assessments exist: Tutor Marked Assessment (TMA), Computer Marked Assessment (CMA) and Final Exam (Exam).
->>date – information about the final submission date of the assessment calculated as the number of days since the start of the module-presentation. The starting date of the presentation has number 0 (zero).
->>weight - weight of the assessment in %. Typically, Exams are treated separately and have the weight 100%; the sum of all other assessments is 100%.
+<ol>
+<li>code_module – identification code of the module, to which the assessment belongs.</li>
+<li>code_presentation - identification code of the presentation, to which the assessment belongs.\>>id_assessment – identification number of the assessment.</li>
+<li>assessment_type – type of assessment. Three types of assessments exist: Tutor Marked Assessment (TMA), Computer Marked Assessment (CMA) and Final Exam (Exam).
+<li>date – information about the final submission date of the assessment calculated as the number of days since the start of the module-presentation. The starting date of the presentation has number 0 (zero).</li>
+<li>weight - weight of the assessment in %. Typically, Exams are treated separately and have the weight 100%; the sum of all other assessments is 100%.</li>
 If the information about the final exam date is missing, it is at the end of the last presentation week.
-
+</ol>
+  
 **-courses.csv**
 
 File contains the list of all available modules and their presentations. The columns are:
->>code_module – code name of the module, which serves as the identifier.
->>code_presentation – code name of the presentation. It consists of the year and “B” for the presentation starting in February and “J” for the presentation starting in October.
->>length - length of the module-presentation in days.
+<ol>
+<li>code_module – code name of the module, which serves as the identifier.
+<li>code_presentation – code name of the presentation. It consists of the year and “B” for the presentation starting in February and “J” for the presentation starting in October.
+<li>length - length of the module-presentation in days.
 The structure of B and J presentations may differ and therefore it is good practice to analyse the B and J presentations separately. Nevertheless, for some presentations the corresponding previous B/J presentation do not exist and therefore the J presentation must be used to inform the B presentation or vice versa. In the dataset this is the case of CCC, EEE and GGG modules.
+<ol>  
 
 **-studentAssessment.csv**
 
