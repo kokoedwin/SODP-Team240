@@ -2,7 +2,7 @@
 
 ## Dataset folder
 
-##Dataset folder contains the 7 csv files which we are using to create the statistical model
+**Dataset folder contains the 7 csv files which we are using to create the statistical model**
 
 **-assessments.csv**
 
