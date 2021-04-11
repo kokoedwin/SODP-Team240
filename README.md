@@ -92,3 +92,7 @@ The csv file contains information about the available materials in the VLE. Typi
 
 ## Dataset Citation
 Kuzilek J., Hlosta M., Zdrahal Z. Open University Learning Analytics dataset Sci. Data 4:170171 doi: 10.1038/sdata.2017.171 (2017).
+
+## The jupyter notebook file: 
+
+Run all the cells after donwloading the file into jupyter notebook
